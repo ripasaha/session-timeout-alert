@@ -29,7 +29,7 @@ function trackLogin()
 			{
 				clearInterval(interval);
 				alert('You have been logged out.You will now be redirected to home page.');
-				document.location.href = "index.html";
+				document.location.href = "index.php";
 			}
 		}
 	}
